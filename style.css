@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 0.9em;
+    filter: invert(100%);
+    background-color: #1a1c20;
+    font-family: "RobotoMonoRegular", monospace;
+}
+div.container {
+    max-width: 42em;
+}
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.command,
+.argument {
+    font-weight: bold;
+}
+div.container div h1 {
+    font-weight: normal;
+}
+div,
+p.indented {
+    margin-bottom: 1em;
+}
+div.section div {
+    margin-left: 4em;
+}
+p.indented {
+    margin-left: 2em;
+}
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
